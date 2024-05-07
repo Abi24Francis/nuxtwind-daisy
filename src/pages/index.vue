@@ -2,27 +2,31 @@
 
   <div class="hero min-h-screen bg-base-200">
     <div class="hero-content text-center">
+      <div class="w-full sm:w-1/4 mb-7 sm:mb-0">
+      <img src="assets\images\Abishek_ID_Pic_1.jpg" class="rounded-lg w-96" alt="" />
+    </div>
       <div class="max-w-xl">
-        <h1 data-aos="fade-down" class="text-4xl md:text-7xl font-bold mb-6">Nuxtwind Daisy</h1>
-        <p data-aos="fade-down" data-aos-delay="300" class="md:text-lg mb-6">Nuxtwind Daisy is a starter template project for Nuxt.js 3 + Tailwind CSS + Daisy UI with additional installed setup for custom font, icons, animation, and more.</p>
+        <h1 data-aos="fade-down" class="text-4xl md:text-7xl font-bold mb-6">Welcome !</h1>
+        <p data-aos="fade-down" data-aos-delay="300" class="md:text-lg mb-6">Hi! I am Abishek F Leo. A software developer who forgets how to code at times.</p>
         <div class="flex justify-center space-x-5">
           <a
+            download=""
             data-aos="fade-down"
             data-aos-delay="600"
             class="btn btn-sm md:btn-md btn-primary"
-            href="https://github.com/OSSPhilippines/nuxtwind-daisy/fork"
+            href="/Abishek_Resume.pdf"
             target="_blank"
           >
-            Fork this Project
+            My CV
           </a>
           <a
             data-aos="fade-down"
             data-aos-delay="600"
             class="btn btn-sm md:btn-md btn-primary btn-outline"
-            href="https://github.com/OSSPhilippines/nuxtwind-daisy"
+            href="https://github.com/Bourbonmedici"
             target="_blank"
           >
-            Give us a star in GitHub
+            Visit my github profile
           </a>
         </div>
       </div>
@@ -31,12 +35,12 @@
 
   <generic-panel>
     <div class="flex flex-col">
-      <h1 class="text-3xl md:text-5xl mb-5">Introduction</h1>
-      <p class="md:text-lg">Create beautiful and fast websites without worrying about the tedious setup. Just fork this repository and start hacking away!</p>
+      <h1 class="text-3xl md:text-5xl mb-5">About Me</h1>
+      <p class="md:text-lg">Crazy af about web development...</p>
     </div>
   </generic-panel>
 
-  <generic-panel>
+  <!-- <generic-panel>
     <div class="flex flex-col">
       <h1 class="text-3xl md:text-5xl mb-5">Getting Started</h1>
       <p class="md:text-lg">Read <a href="https://github.com/OSSPhilippines/nuxtwind-daisy#readme" class="text-primary">the documentation</a> on how to start quickly.</p>
@@ -70,24 +74,30 @@
       <a class="hidden md:inline text-lg mt-1 text-primary" href="https://icons8.com/line-awesome" target="_blank">and more...</a>
     </div>
     <a class="inline md:hidden text-lg mt-1 text-primary" href="https://icons8.com/line-awesome" target="_blank">and more...</a>
-  </generic-panel>
+  </generic-panel> -->
 
   <generic-panel>
     <div class="flex flex-col mb-5">
-      <h1 class="text-xl md:text-3xl mb-5">Animation by AOS.js <i class="las la-running text-primary"></i></h1>
-      <p class="md:text-lg">Check <a class="text-primary" href="https://michalsnik.github.io/aos/" target="_blank">AOS.js documentation</a> for more animations.</p>
+      <h1 class="text-xl md:text-3xl mb-5">Please hire me for your projects<i class="las la-running text-primary"></i></h1>
+      <p class="md:text-lg"><a class="text-primary" href="https://michalsnik.github.io/aos/" target="_blank">Because i need </a> money.</p>
     </div>
     <div class="flex flex-col">
       <div class="flex flex-col md:flex-row space-y-5 md:space-y-0 md:space-x-5">
-        <div data-aos="fade-down" data-aos-delay="500" class="w-full md:w-[200px] h-[200px] bg-green-200"></div>
-        <div data-aos="flip-left" data-aos-delay="1000" class="w-full md:w-[200px] h-[200px] bg-red-200"></div>
-        <div data-aos="zoom-in" data-aos-delay="1500" class="w-full md:w-[200px] h-[200px] bg-blue-200"></div>
-        <a class="text-lg mt-1 text-primary" href="https://michalsnik.github.io/aos/" target="_blank">more animations...</a>
+        <div data-aos="fade-down" data-aos-delay="500" class="w-full md:w-[200px] h-[200px] bg-green-200">
+          <span class="flex items-center justify-center text-primary md:text-lg font-bold ">Hey There!</span>
+        </div>
+        <div data-aos="flip-left" data-aos-delay="1000" class="w-full md:w-[200px] h-[200px] bg-red-200">
+          <span class="flex items-center justify-center text-emerald-400 md:text-lg font-bold ">Why do you love?</span>
+        </div>
+        <div data-aos="zoom-in" data-aos-delay="1500" class="w-full md:w-[200px] h-[200px] bg-blue-200">
+          <span class="flex items-center justify-center text-rose-500 md:text-lg font-bold ">Me so much</span>
+        </div>
+        <!-- <a class="text-lg mt-1 text-primary" href="https://michalsnik.github.io/aos/" target="_blank">more animations...</a> -->
       </div>
     </div>
   </generic-panel>
 
-  <generic-panel>
+  <!-- <generic-panel>
     <div class="flex flex-col mb-5">
       <h1 class="text-xl md:text-3xl mb-5">UI Components by Daisy UI 🌼 version 3</h1>
       <p class="md:text-lg">Learn more from the official <a class="text-primary" href="https://daisyui.com/" target="_blank">daisyUI documentation</a>.</p>
@@ -296,7 +306,7 @@
       <h1 class="md:text-xl mb-5 font-bold">And more components...</h1>
       <p>Visit the official <a href="https://daisyui.com/docs/install/" target="_blank" class="text-primary">Daisy UI documentation</a>.</p>
     </div>
-  </generic-panel>
+  </generic-panel> -->
 
 </template>
 
@@ -316,7 +326,7 @@ export default {
     });
 
     useHead({
-      title: 'Nuxtwind Daisy 🟢💨🌼',
+      title: 'Welcome to my crazy world!',
       description: 'Nuxtwind Daisy is a starter template for Nuxt.js 3 + Tailwind CSS + Daisy UI with additional installed setup for custom font, icons, animation, and more.',
       link: [
         { rel: 'icon', type: 'image/png', href: '/favicon.png' },

@@ -2,7 +2,7 @@
   <div :data-theme="theme">
     <div class="navbar fixed bg-base-100 z-40 shadow-sm">
       <div class="navbar-start">
-        <a class="btn btn-ghost md:text-xl">Nuxtwind Daisy</a>
+        <a class="btn btn-ghost md:text-xl">Abishek F Leo</a>
       </div>
       <div class="navbar-center hidden lg:flex">
         <!-- TODO: You can add menu here -->
@@ -19,9 +19,9 @@
     <slot />
     <footer class="footer footer-center p-10 bg-base-50">
       <div>
-        <h1 class="text-2xl md:text-3xl font-bold">Nuxtwind Daisy</h1>
+        <h1 class="text-2xl md:text-3xl font-bold">Abishek F Leo</h1>
         <p class="md:font-bold">
-          Create beautiful and fast websites without the tedious setup
+          Please hire me. Because I have bills to pay.
         </p>
         <p>Copyright © {{new Date().getFullYear()}} - All right reserved</p>
       </div>
